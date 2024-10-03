@@ -1,0 +1,44 @@
+/* src/ImageGallery.css */
+
+.gallery {
+  width: 100vw;
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: #f0f0f0; /* Optional background color */
+}
+
+.gallery-item {
+  width: 100%; /* Full viewport width */
+  height: 100%; /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-item img {
+  max-width: 100%;  /* Image will not exceed viewport width */
+  max-height: 100%; /* Image will not exceed viewport height */
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Optional shadow effect */
+}
+
+/* Style for the slick dots */
+.slick-dots {
+  bottom: 20px; /* Adjust the position of the dots */
+}
+
+.slick-prev, .slick-next {
+  z-index: 1; /* Ensures the arrows are above the images */
+  font-size: 24px; /* Larger arrows for better visibility */
+}
+
+.slick-prev {
+  left: 10px; /* Position the left arrow */
+}
+
+.slick-next {
+  right: 10px; /* Position the right arrow */
+}

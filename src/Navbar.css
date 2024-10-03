@@ -1,0 +1,48 @@
+/* src/Navbar.css */
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: whitesmoke;
+  height: 80px;
+  width: 1500px;
+  /* Adjust to fit the navbar height */
+}
+
+/* Logo Styling */
+.logo img {
+  width: 350px;
+  height: auto;
+  /* Keeps the aspect ratio of the logo */
+}
+
+/* Navbar Links */
+.navbar-links {
+  list-style: none;
+  display: flex;
+
+}
+
+.navbar-links li {
+  margin: 0 10px;
+  padding: 30px;
+}
+
+.navbar-links a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar-links a:hover {
+  color: #ff0000;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .navbar-links {
+    display: none;
+  }
+}

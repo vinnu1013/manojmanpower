@@ -1,0 +1,44 @@
+/* ContactLinks.css */
+
+/* The curved section at the right */
+.contact-section {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 80px;
+  height: 200px;
+  background-color: rgb(198, 198, 198);
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-link {
+  margin: 10px 0;
+  text-decoration: none;
+}
+
+.contact-icon {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease;
+}
+.whatsapp-icon {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s ease;
+}
+
+.contact-icon:hover {
+  transform: scale(1.1); /* Icon grows slightly when hovered */
+}
+
+/* Optional: Add a simple hover effect */
+.contact-section:hover {
+  background-color: #e0e0e0; /* Change background color on hover */
+}

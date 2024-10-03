@@ -1,0 +1,52 @@
+.footer {
+  display: flex;
+  justify-content: left;
+  padding: 20px 20px;
+  background-color: rgb(142, 142, 142);
+  height: 270px; /* Adjust to fit the navbar height */
+  border-spacing: 300px;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 20px 0px;
+  margin-left: 50px;
+}
+.call-img {
+  width: 20px;
+  height: auto; /* Keeps the aspect ratio of the logo */
+}
+.location-img {
+  width: 30px;
+  height: auto; /* Keeps the aspect ratio of the logo */
+}
+.mail-img {
+  width: 40px;
+  height: auto; /* Keeps the aspect ratio of the logo */
+}
+.h4{
+    position: relative;
+    margin-left: 100px;
+}
+.About{
+    position:relative;
+    margin-left: 0px;
+}
+.mail-link{
+    position: relative;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+.whatsapp-Link{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    margin-left: -690px;
+    transition: transform 0.3s ease;
+}
+.Instagram-Link{
+  width: 40px;
+  height: 40px;
+  position: relative;
+  margin-left: -590px;
+  transition: transform 0.3s ease;
+}
