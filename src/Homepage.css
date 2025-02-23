@@ -1,5 +1,132 @@
 .Poster1{
-    position: relative;
-    width: 1540px;
-    object-fit:fill;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
+/* Typing Effect */
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+@keyframes colorChange {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: green; }
+  }
+
+h2 {
+    margin-left: 15px;
+    font-family: monospace;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;  /* Start with 0 width */
+    animation: typing 3.5s steps(30, end) forwards,colorChange 4s infinite;;
+    animation-delay: 0s;       /* Start immediately */
+    animation-iteration-count: infinite; /* Repeat infinitely */
+    animation-direction: normal;
+    animation-timing-function: steps(30, end);
+    animation-fill-mode: forwards;
+    animation-delay: 0s; /* Wait for the remaining 6.5 seconds to complete the 10s loop */
+}
+p{
+    margin-left: 30px;
+}
+.SurveyAndMaketResearch{
+    background: linear-gradient(to right, #81e07b, #e08243);
+    height: 60px;
+    align-content: center;
+
+}
+.political-survey{
+   position:absolute;
+   width: 340px;
+   height: 300px;
+   margin-left: 900px;
+   margin-top: -300px;
+   mix-blend-mode: multiply;
+   border-radius: 20px;
+}
+.MarketResearch{
+margin-left: 400px;
+}
+.market_research_img{
+    position:absolute;
+    width: 340px;
+    height: 300px;
+    margin-left: -380px;
+    margin-top: -50px;
+    mix-blend-mode: multiply;
+    border-radius: 20px;
+ }
+.tools{
+    position:absolute;
+    width: 340px;
+    height: 300px;
+    margin-left: 900px;
+    margin-top: -10px;
+    mix-blend-mode: multiply;
+    border-radius: 20px;
+}
+.content_toolsUsed{
+    margin-right: 400px;
+}
+.Our_Works{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/*
+.Vinay_Sir_Img{
+    width: 200px;
+    width: 200px;
+    border-radius: 200px;
+}
+.AbourtVinay{
+    margin-left: 12px;
+}
+.Manoj_Sir_Img{
+    position: relative;
+    width: 200px;
+    width: 200px;
+    border-radius: 200px;
+    margin-bottom: 100px;
+    margin-left: 400px; 
+    display:; 
+}
+    */
+    .team-container {
+        text-align: center;
+        padding: 20px;
+      }
+      
+      .team-members {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+      }
+      
+      .team-member {
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        width: 200px;
+      }
+      
+      .team-member img {
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+      }
+      
+      .team-member h3 {
+        margin-top: 10px;
+        font-size: 1.2em;
+      }
+      
+      .team-member p {
+        font-size: 1em;
+        color: gray;
+      }
+      

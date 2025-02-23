@@ -4,3 +4,8 @@
 .aboutpagecontent{
     margin-left: 40px;
 }
+.mission_img{
+    position: relative;
+    object-fit: fill;
+    width: 10px;   
+}

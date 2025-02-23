@@ -1,24 +1,20 @@
-/* src/Navbar.css */
-
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
-  background-color: whitesmoke;
-  height: 80px;
-  width: 1500px;
-  /* Adjust to fit the navbar height */
-}
 
-/* Logo Styling */
+  background-color:	#EFEFEA;
+  width: 100%;
+  height: 100px;
+}
 .logo img {
-  width: 350px;
+  width: 330px;
   height: auto;
-  /* Keeps the aspect ratio of the logo */
+  position: relative;
+  margin-top: -20px;
 }
 
-/* Navbar Links */
+
 .navbar-links {
   list-style: none;
   display: flex;
@@ -26,14 +22,17 @@
 }
 
 .navbar-links li {
-  margin: 0 10px;
-  padding: 30px;
+  margin: 0 30px;
+  padding:  10px  20px;
 }
 
 .navbar-links a {
-  color: rgb(0, 0, 0);
+  color: green;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 22px;
+  font-family: 'Times New Roman';
+  font-weight: 500;
+  letter-spacing: 0.5px;
 }
 
 .navbar-links a:hover {

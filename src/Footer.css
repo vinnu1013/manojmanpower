@@ -3,7 +3,7 @@
   justify-content: left;
   padding: 20px 20px;
   background-color: rgb(142, 142, 142);
-  height: 270px; /* Adjust to fit the navbar height */
+  height: 310px;
   border-spacing: 300px;
 }
 table {
@@ -17,11 +17,11 @@ table {
 }
 .location-img {
   width: 30px;
-  height: auto; /* Keeps the aspect ratio of the logo */
+  height: auto;
 }
 .mail-img {
   width: 40px;
-  height: auto; /* Keeps the aspect ratio of the logo */
+  height: auto;
 }
 .h4{
     position: relative;

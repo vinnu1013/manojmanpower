@@ -1,0 +1,52 @@
+.img{
+    width: 1265px;
+    height: 470px;
+    object-fit: cover;
+}
+.image-container {
+    position: relative;
+    width: 300px; /* Adjust size as needed */
+    height: 500px;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .overlay-text2 {
+    position: absolute;
+    top: 200px;
+    left: 550px;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  .call-img1{
+    position: relative;
+    left: 15px;
+    width: 70%;
+    height: 50%;
+    object-fit: cover;
+  }
+  .mail-img1{
+    position: relative;
+    left: 0px;
+    width: 150%;
+    height: 50%;
+
+  }
+  .location-img1{
+    position: relative;
+    top: -10px;
+    width: 40px;
+    left: 15px;
+    
+  }

@@ -7,8 +7,9 @@ import whatsapp from "./whatsapp.png";
 import LinkedIn from "./LinkedIn.png";
 import Instagram from "./Instagram.png";
 
-const Footer = () => {
+const Footer = () => {/*
   return (
+    
     <footer className="footer" border="1" cellpadding="15">
       <div>
         <table>
@@ -37,7 +38,10 @@ const Footer = () => {
             <td>
               {" "}
               <p>Vanasthalipuram,Hyderabad</p>
-              <a href="https://www.google.com/maps/dir//Land+Mark:,+Plot+No+20,+Ganesh+Temple+Rd,+beside+Hyderabad,+Phase-1,+Phase+I,+Vanasthalipuram,+Hyderabad,+Telangana+500070/@17.3316854,78.4877918,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bcba184fe256a43:0xe20ec21de71ebf3f!2m2!1d78.5701936!2d17.3317023?entry=ttu&g_ep=EgoyMDI0MDkzMC4wIKXMDSoASAFQAw%3D%3D" className="location-link">
+              <a
+                href="https://www.google.com/maps/dir//Land+Mark:,+Plot+No+20,+Ganesh+Temple+Rd,+beside+Hyderabad,+Phase-1,+Phase+I,+Vanasthalipuram,+Hyderabad,+Telangana+500070/@17.3316854,78.4877918,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bcba184fe256a43:0xe20ec21de71ebf3f!2m2!1d78.5701936!2d17.3317023?entry=ttu&g_ep=EgoyMDI0MDkzMC4wIKXMDSoASAFQAw%3D%3D"
+                className="location-link"
+              >
                 {" "}
                 Get Location
               </a>
@@ -45,7 +49,7 @@ const Footer = () => {
             <td>
               {" "}
               <td className="About ">
-                Race to Lead is a research initiative of the Building Movement
+                Manoj Manpower is a research initiative of the Building Movement
                 Project (BMP). <br></br>
                 For 25 years, BMP has been advancing the potential for nonprofit
                 organizations to <br></br>
@@ -106,6 +110,12 @@ const Footer = () => {
       </div>
     </footer>
   );
+  */
+ return(
+  <Footer>
+    
+  </Footer>
+ )
 };
 
 export default Footer;

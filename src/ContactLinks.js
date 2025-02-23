@@ -1,8 +1,7 @@
-// src/ContactLinks.js
 import React from "react";
 import "./ContactLinks.css";
-import whatsapp from "./ImageGallery/whatsapp.png"; // Importing the image from the src folder
-import mail from "./ImageGallery/mail01.png"; // Assuming your mail icon is in the same folder
+import whatsapp from "./ImageGallery/whatsapp.png";
+import mail from "./ImageGallery/mail01.png";
 
 const ContactLinks = () => {
   return (
@@ -13,7 +12,7 @@ const ContactLinks = () => {
         rel="noopener noreferrer"
         className="contact-link"
       >
-        <img src={whatsapp} alt="WhatsApp" className="whatsapp-icon" />
+        <img src={whatsapp} alt="WhatsApp" className=" contact-icon" />
       </a>
       <a
         href="mailto:manojmanpowersolutions@gmail.com"
@@ -24,5 +23,4 @@ const ContactLinks = () => {
     </div>
   );
 };
-
 export default ContactLinks;
