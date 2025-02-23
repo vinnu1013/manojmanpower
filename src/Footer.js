@@ -7,7 +7,7 @@ import whatsapp from "./whatsapp.png";
 import LinkedIn from "./LinkedIn.png";
 import Instagram from "./Instagram.png";
 
-const Footer = () => {/*
+const Footer = () => {
   return (
     
     <footer className="footer" border="1" cellpadding="15">
@@ -110,7 +110,6 @@ const Footer = () => {/*
       </div>
     </footer>
   );
-  */
  return(
   <Footer>
     
